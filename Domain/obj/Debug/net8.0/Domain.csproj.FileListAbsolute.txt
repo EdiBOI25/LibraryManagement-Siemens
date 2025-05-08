@@ -1,0 +1,11 @@
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\bin\Debug\net8.0\Domain.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\bin\Debug\net8.0\Domain.pdb
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.pdb
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\ref\Domain.dll

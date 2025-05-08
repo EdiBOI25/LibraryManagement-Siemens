@@ -1,0 +1,17 @@
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Persistence.deps.json
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Persistence.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Persistence.pdb
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Domain.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\bin\Debug\net8.0\Domain.pdb
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.pdb
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Persistence\obj\Debug\net8.0\ref\Persistence.dll
