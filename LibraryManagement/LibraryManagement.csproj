@@ -14,10 +14,13 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
+        <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
     </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\Persistence\Persistence.csproj" />
+        <ProjectReference Include="..\UI\UI.csproj" />
     </ItemGroup>
 
 </Project>

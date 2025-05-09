@@ -1,18 +1,40 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+
+using UI;
 using Persistence;
+using Persistence.Interfaces;
+using Persistence.Repositories;
+using Service.Interfaces;
+using Service.Services;
 
-var services = new ServiceCollection();
 
-services.AddDbContext<LibraryDbContext>(options =>
-    options.UseSqlite("Data Source=library.db"));
+namespace LibraryManagement;
 
-var provider = services.BuildServiceProvider();
-
-using (var scope = provider.CreateScope())
+public class Program
 {
-    var context = scope.ServiceProvider.GetRequiredService<LibraryDbContext>();
-    
-    var books = context.Books.ToList();
-    Console.WriteLine($"Books in database: {books.Count}");
+    public static async Task Main(string[] args)
+    {
+        using var host = CreateHostBuilder().Build();
+        var services = host.Services;
+
+        await UIMain.RunAsync(services);
+    }
+
+    private static IHostBuilder CreateHostBuilder() =>
+        Host.CreateDefaultBuilder()
+            .ConfigureServices((context, services) =>
+            {
+                var dbPath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "library.db");
+                var connectionString = $"Data Source={Path.GetFullPath(dbPath)}";
+                Console.WriteLine(connectionString);
+                
+                services.AddDbContext<LibraryDbContext>(options =>
+                    options.UseSqlite(connectionString));
+
+                services.AddScoped<IBookRepository, BookRepository>();
+                services.AddScoped<ICategoryRepository, CategoryRepository>();
+                services.AddScoped<IBookService, BookService>();
+            });
 }

@@ -9,3 +9,4 @@ E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Dom
 E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\refint\Domain.dll
 E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.pdb
 E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\ref\Domain.dll
+E:\!Facultate\Siemens Cluj Library\LibraryManagement\Domain\obj\Debug\net8.0\Domain.sourcelink.json
