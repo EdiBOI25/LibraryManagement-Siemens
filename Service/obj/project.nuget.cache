@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4c3zTG2Yhnc=",
+  "dgSpecHash": "KnPeA+lrMUpArSoEnhz39W4a3qQ4GWoZSwJpDT5Mb0mj3IP1jG6E5XVsViFJV637vAql4BXIfVtKDCzIamk0lQ==",
   "success": true,
   "projectFilePath": "E:\\!Facultate\\Siemens Cluj Library\\LibraryManagement\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,10 @@
     "C:\\Users\\jagua\\.nuget\\packages\\system.io.pipelines\\9.0.4\\system.io.pipelines.9.0.4.nupkg.sha512",
     "C:\\Users\\jagua\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\jagua\\.nuget\\packages\\system.text.encodings.web\\9.0.4\\system.text.encodings.web.9.0.4.nupkg.sha512",
-    "C:\\Users\\jagua\\.nuget\\packages\\system.text.json\\9.0.4\\system.text.json.9.0.4.nupkg.sha512"
+    "C:\\Users\\jagua\\.nuget\\packages\\system.text.json\\9.0.4\\system.text.json.9.0.4.nupkg.sha512",
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.3\\microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.3\\microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }

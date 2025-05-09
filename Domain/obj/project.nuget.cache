@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jWklpTD2IJ4=",
+  "dgSpecHash": "lnJuA30kDu/ba9nZZVIfKncUHgDxP1BOkkDKM+YM4YqRS5A7yuwsr/YQpFAxen+zcqKAG7YmONvknwu3dfaG6Q==",
   "success": true,
   "projectFilePath": "E:\\!Facultate\\Siemens Cluj Library\\LibraryManagement\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.3\\microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
+    "C:\\Users\\jagua\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.3\\microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
