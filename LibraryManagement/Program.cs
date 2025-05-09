@@ -34,7 +34,10 @@ public class Program
                     options.UseSqlite(connectionString));
 
                 services.AddScoped<IBookRepository, BookRepository>();
+                services.AddScoped<ILendingRepository, LendingRepository>();
                 services.AddScoped<ICategoryRepository, CategoryRepository>();
                 services.AddScoped<IBookService, BookService>();
+                services.AddScoped<ILendingService, LendingService>();
+                services.AddScoped<ICategoryService, CategoryService>();
             });
 }

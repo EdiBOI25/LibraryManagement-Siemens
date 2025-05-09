@@ -22,6 +22,14 @@ public static class CommandInterpreter
                 case "book":
                     await BookCommandHandler.HandleAsync(subCommand, arguments, serviceProvider);
                     break;
+                
+                case "categories":
+                    await CategoryCommandHandler.HandleAsync(subCommand, arguments, serviceProvider);
+                    break;
+                
+                case "lending":
+                    await LendingCommandHandler.HandleAsync(subCommand, arguments, serviceProvider);
+                    break;
 
                 case "help":
                     ShowHelp();
@@ -68,9 +76,13 @@ public static class CommandInterpreter
         private static void ShowHelp()
         {
             Console.WriteLine("Available command categories:");
-            Console.WriteLine("- book add --title \"...\" --author \"...\" --quantity ...");
-            Console.WriteLine("- book list --title \"...\" --author \"...\" --sortby id|title|author");
-            Console.WriteLine("- book delete --id ...");
+            Console.WriteLine("- book add --title \"...\" --author \"...\" --quantity n [--categories ...,...,]");
+            Console.WriteLine("- book list [--title \"...\"] [--author \"...\"] [--categories ...,...,] [--sortby id|title|author|rating]");
+            Console.WriteLine("- book delete --id n");
+            Console.WriteLine("- categories list");
+            Console.WriteLine("- lending borrow --bookid n --name \"...\"");
+            Console.WriteLine("- lending return --bookid ... --name ... [--rating ...]");
+            Console.WriteLine("- lending list [--bookid n] [--name \"...\"] [--active]");
             Console.WriteLine("- exit / quit");
         }
     }
